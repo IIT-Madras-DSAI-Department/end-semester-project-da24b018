@@ -20,7 +20,7 @@ This repository is the **starter** for your End Semester Project submission in G
 
 * Describe your repository structure here. Explain about overall code organization.
 
----
+I have uploaded three files which include Main Python file (main.py) to train the models on the data, and predict the results, algorithms.py file with implementation of all algorithms used in your system and a PDF report
 
 ## 📦 Installation & Dependencies
 
@@ -36,7 +36,10 @@ All experiments should be runnable from the command line **and** reproducible in
 
 * Mention the instructions to run you .py files.
   
----
+import numpy as np
+import pandas as pd
+import time
+from collections import Counter
 
 ## You can further add your own sections/titles along with corresponding contents here:
 
@@ -44,7 +47,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Prabhav Gupta, Roll No. DA24B018>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
