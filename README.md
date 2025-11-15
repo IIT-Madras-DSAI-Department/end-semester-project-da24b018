@@ -26,7 +26,10 @@ I have uploaded three files which include Main Python file (main.py) to train th
 
 * Mention all the related instructions for installation of related packages for running your code here.
 
----
+import numpy as np
+import pandas as pd
+import time
+from collections import Counter
 
 ## ▶️ Running the Code
 
@@ -36,10 +39,9 @@ All experiments should be runnable from the command line **and** reproducible in
 
 * Mention the instructions to run you .py files.
   
-import numpy as np
-import pandas as pd
-import time
-from collections import Counter
+In the main.py file, I have used the MNIST_train.csv file to train the model and I am validating using MNIST_validation.csv. So, for testing the model using the test dataset, you can replace the path of the MNIST_validation.csv with the path of the test dataset. At the end of the code, the accuracy of the model will be printed and all the predictions will be stored in a variable 'final_predictions'.
+
+In the algorithms.py file, I have trained many models and I have chosen the best one for the main.py.
 
 ## You can further add your own sections/titles along with corresponding contents here:
 
