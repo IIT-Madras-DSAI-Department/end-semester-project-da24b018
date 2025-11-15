@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
 ## 📌 Purpose of this Template
@@ -19,13 +20,16 @@ This repository is the **starter** for your End Semester Project submission in G
 
 * Describe your repository structure here. Explain about overall code organization.
 
----
+I have uploaded three files which include Main Python file (main.py) to train the models on the data, and predict the results, algorithms.py file with implementation of all algorithms used in your system and a PDF report
 
 ## 📦 Installation & Dependencies
 
 * Mention all the related instructions for installation of related packages for running your code here.
 
----
+import numpy as np
+import pandas as pd
+import time
+from collections import Counter
 
 ## ▶️ Running the Code
 
@@ -35,7 +39,9 @@ All experiments should be runnable from the command line **and** reproducible in
 
 * Mention the instructions to run you .py files.
   
----
+In the main.py file, I have used the MNIST_train.csv file to train the model and I am validating using MNIST_validation.csv. So, for testing the model using the test dataset, you can replace the path of the MNIST_validation.csv with the path of the test dataset. At the end of the code, the accuracy of the model will be printed and all the predictions will be stored in a variable 'final_predictions'.
+
+In the algorithms.py file, I have trained many models and I have chosen the best one for the main.py.
 
 ## You can further add your own sections/titles along with corresponding contents here:
 
@@ -43,7 +49,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Prabhav Gupta, Roll No. DA24B018>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
